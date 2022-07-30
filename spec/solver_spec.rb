@@ -10,12 +10,12 @@ describe Solver do
       expect(solver).to respond_to(:factorial)
     end
 
-    it 'factorial of 5 should be 15' do
-      expect(solver.factorial(num)).to eq 15
+    it 'factorial of 5 should be 120' do
+      expect(solver.factorial(num)).to eq 120
     end
 
     it 'reverse of maano should be onaam' do
-      expect(solver.reverse(word)).to match(/onaam/)
+      expect(solver.reverse(word)).to match(/^onaam+$/)
     end
 
     it 'fizzbuzz should return buzz for value 5' do
