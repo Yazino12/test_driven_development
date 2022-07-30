@@ -10,9 +10,9 @@ In this repo you will learn how to implement a class with some methods, by using
 
 - A text editor(preferably Visual Studio Code)
 
-**Getting Started**
+## Getting Started
 
-- To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple example steps:**
 
 **Install**
 
@@ -20,9 +20,8 @@ In this repo you will learn how to implement a class with some methods, by using
 
 **Using it Locally**
 
-- Clone the project
-  `git clone git@github.com:Yazino12/test_driven_development.git`
-  `cd test_driven_development`
+- Clone the project: `git clone git@github.com:Yazino12/test_driven_development.git`
+- Navigate to the folder: `cd test_driven_development`
 
 **To Start the programs**
 
