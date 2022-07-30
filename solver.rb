@@ -2,16 +2,15 @@ class Solver
   def factorial(num)
     result = 1
 
-    unless num.positive? raise ArgumentError, 'Negative numbers are not allowed'
+    raise ArgumentError, 'Negative numbers are not allowed' if num.negative? 
 
-        if num.zero?
-            1
-        else
-            (1..num).each { |i| result *= i }
-            result
-        end
+    if num.zero?
+        1
+    else 
+        (1..num).each { |i| result *= i }
+        result
     end
-    end
+end
 
     def reverse(str)
       str.reverse
@@ -28,4 +27,4 @@ class Solver
         num.to_s
       end
     end
-
+end
