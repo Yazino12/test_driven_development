@@ -29,6 +29,11 @@ In this repo you will learn how to implement a class with some methods, by using
 - `open terminal`
 - `run ruby solver.rb`
 
+**To run Tests**
+
+- `cd spec`
+- `rspec solver_spec.rb`
+
 ## Authors
 
 👤 **Yasin Warsame**
